@@ -16,13 +16,7 @@ const Service = () => {
                     <h1 style={{ color: 'black', marginLeft: '20rem', fontStyle: "italic", fontWeight: 'bold', paddingTop: '50px' }}>
                         Professional and Proficient <br></br><span style={{marginLeft:'25rem'}}>Nursing Services!!!</span></h1>
                     <div className="service">
-                        <div className="service-icon"><br></br>
-                            <img src={appliances} alt="Service Icon 2" />
-                        </div>
-                        <div className="service-info">
-                            <h2 style={{ color: 'black' }}>Home Appliances Repairing</h2><br></br>
-                            <p>We provide expert home appliances repairing services to ensure that your home is safe and well-maintained.</p>
-                        </div>
+                       
                     </div>
                     <div className="service">
                         <div className="service-icon"><br></br>
