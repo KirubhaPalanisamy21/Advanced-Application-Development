@@ -12,8 +12,8 @@ const UserDashboard = () => {
 
     return (
         <div className="dashboard-container">
-            <div className="image-container">
-                <img src="https://t3.ftcdn.net/jpg/04/81/63/56/360_F_481635623_LYdEwpGr7aROuaofgwCAz1l2JAAD9pvK.jpg" style={{ border: '50%' }} alt="Left Side Image" />
+            <div className="image1">
+                <img src="https://assets.entrepreneur.com/content/3x2/2000/20160520162059-lend-hand-help-elderly-home-senior-patient.jpeg" width="500" height="400"/>
             </div>
             <div className="user-info">
                 <div className='usercontent' >

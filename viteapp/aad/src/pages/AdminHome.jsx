@@ -15,7 +15,7 @@ function AdminHome() {
         </div>
         <div className='usermain' id='AdminHome'>
           <div className="userhome">
-            <div className="homeright">
+            <div className="homeright"><img src='https://nhhs-mweb-new.s3.ap-south-1.amazonaws.com/images/elder-care-1566366748.jpg' alt='golden year image' className='image-0'/>
               <div className='leftcontent'>
                 <h1 style={{ color: 'black' }}>Golden Years Companion<br></br> Your Home, Your Health, Our Care</h1><br></br>
                 <h3 style={{ color: "black" }}>Customized In-Home Care Solutions Catering <br></br> Each Stage of the Senior Experience</h3>
@@ -41,7 +41,6 @@ function AdminHome() {
           <div className="footer">
             <div className="row">
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-              <a href="https://www.facebook.com/" target="blank" className="custom-icon fa fa-facebook "></a>
               <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den" target="blank" className="custom-icon fa fa-twitter"></a>
               <a href="https://www.google.com/" target="blank" className="custom-icon fa fa-google "></a>
               <a href="https://www.linkedin.com/" target="blank" className="custom-icon fa fa-linkedin "></a>
@@ -51,8 +50,8 @@ function AdminHome() {
             </div>
 
             <div className="row">
-              Golden Years Copyright @ 2024  Subaharini -
-              All rights reserved || Designed By: SUBA
+              Golden Years Copyright @ 2024  KIRUBHA -
+              All rights reserved || Designed By: KIRUBHA
             </div>
           </div>
         </footer>

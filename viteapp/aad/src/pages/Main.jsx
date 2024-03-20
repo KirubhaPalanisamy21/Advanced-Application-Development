@@ -13,16 +13,16 @@ const MainPage = () => {
                 <img src={imgGif} className='imgGif' alt='gif' />
             </div>
             <div className='mainpageleft'>
-                <h2>Glad to have you - Golden Years Companion!!!</h2>
+                <h2>Glad to have you - Home care service for seniors!</h2>
                 <div className="additional-content">
                     <br></br>
                     <p>
-                        Golden Years Companion is here to make your experience better.
+                        We are here to make your home care services that helps you to stay in your own home and maintain your independence as you get older..
                         <br></br>
-                        Kindly, select your role to experience the feature!!!
+                
                     </p>
                     <br></br>
-                    <h2>Please select your role:</h2>
+                    <h2>Kindly select your role to experience the feature!</h2>
 
                     <div className='main-buttons'>
                         <div className="button-container">
@@ -42,13 +42,7 @@ const MainPage = () => {
                         </div>
                     </div>
                     <br></br>
-                    <div className="feature-list">
-                        <h3 style={{ marginTop: '10px' }}>Key Features,..</h3>
-                        <ul style={{ listStyle: 'none', marginTop: '20px' }}>
-                            <li>User-friendly interface for easy navigation</li>
-                            <li>Customized experiences based on your role</li>
-                        </ul>
-                    </div>
+                   
                 </div>
             </div>
 

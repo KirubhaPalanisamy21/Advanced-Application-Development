@@ -3,25 +3,25 @@
 .bookservice {
   display: flex;
   justify-content: space-between;
-  background-color: #f0f0f0; /* Set your desired background color */
-  padding: 20px; /* Add padding for spacing */
+  background-color: #f0f0f0; 
+  padding: 20px; 
 }
 
 .bookcontent {
-  flex: 1; /* Takes up all available space */
+  flex: 1; 
   text-align: right;
 }
 
 .book-service-container {
-  flex: 1; /* Takes up all available space */
-  background-color: #fff; /* Set your desired card background color */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-  border-radius: 8px; /* Add border-radius for rounded corners */
-  padding: 20px; /* Add padding inside the card */
+  flex: 1; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
   overflow-y: scroll;
 }
 
-/* Additional styles for form styling */
+
 .form-group {
   margin-bottom: 20px;
 }

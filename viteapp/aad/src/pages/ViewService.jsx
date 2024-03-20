@@ -13,13 +13,14 @@ const ViewService = () => {
     const mockServices = [
         {
             serviceId: 1,
-            serviceType: "Cleaning",
-            serviceDescription: "Cleaning service",
+            serviceType: "Councling",
+            serviceDescription: "Councling service",
             duration: "2 hours",
             charge: "$50",
             available: true,
-            image: "path/to/cleaning-image.jpg"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToaQfTQ3Uj9kAuzGTd-8A1LdIT5sVGaihGLRKTyVLmSGj6Cxd1SQz_bAu62pWLefFRUH8&usqp=CAU"
         },
+        
         // Add more mock services data as needed
     ];
 

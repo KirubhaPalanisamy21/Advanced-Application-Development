@@ -19,16 +19,19 @@ body{
     width: 70%; 
     height: 100vh;
     background-size: cover;
-    background: url('https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg?w=996&t=st=1706671821~exp=1706672421~hmac=3f0baf490c0746e19c2cc91de4d68255c2bfb61951c9638001bab940dafa7050')no-repeat;
+    background: url()no-repeat;
 }
 .appointments,
 .quick-links {
     width: 40%; 
 }
 
-.image-container {
-    width: 50%; 
-    padding: 20px;
+.image1 {
+
+    width: 52%; 
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 .image-container img {
@@ -50,7 +53,7 @@ body{
 
 .appointments li,
 .quick-links li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .card {

@@ -47,6 +47,9 @@ function App() {
         <Route path='/BookingHistory' element={<BookingHistory />} />
         <Route path='/Profile' element={<Profile />} />
         <Route path="/AvailableService" element={<AvailableService/>}/>
+      
+        
+
       </Routes>
     </Router>
 

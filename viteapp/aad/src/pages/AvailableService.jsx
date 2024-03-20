@@ -5,28 +5,28 @@ import '../assets/css/ViewService.css';
 const AvailableService = () => {
     const [services, setServices] = useState([
         {
-            serviceType: 'Cleaning',
-            serviceDescription: 'Home cleaning service',
+            serviceType: 'Helping',
+            serviceDescription: 'Home helping service',
             charge: '$50',
             duration: '2 hours',
             available: true,
-            image: 'https://via.placeholder.com/150'
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyFOGxDJ5pNmb83DXr_ZKS70_xDOSoHh4rvmkEB5jhkYlQ0IOCfrjemEdPyQR9RymUbcU&usqp=CAU'
         },
         {
-            serviceType: 'Cooking',
-            serviceDescription: 'Meal preparation service',
+            serviceType: 'Activity',
+            serviceDescription: 'Activity service',
             charge: '$30',
             duration: '1 hour',
             available: false,
-            image: 'https://via.placeholder.com/150'
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRPmxM7HPaxOndX9b8Bhj04WCgpxw7Lo3aHLfvL58-uWWOsaw8Uzj9LJXTqyhtAM5BPus&usqp=CAU'
         },
         {
-            serviceType: 'Gardening',
-            serviceDescription: 'Garden maintenance service',
+            serviceType: 'Councling',
+            serviceDescription: 'Councling service',
             charge: '$40',
             duration: '1.5 hours',
             available: true,
-            image: 'https://via.placeholder.com/150'
+            image: 'https://cdn.sixtyandme.com/wp-content/uploads/2020/09/Elder-Care-Handbook-A-Guide-to-Local-and-National-Help-for-Common-Aging-Issues-1500x808.jpg'
         }
     ]);
 

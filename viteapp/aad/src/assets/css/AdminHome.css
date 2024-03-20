@@ -3,6 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.image-0{
+	position: absolute;
+	left:4%;
+	width: 40vw;
+	/* top:23%; */
+	margin-top: 14%;
+
+}
+.userhome
+{
+	margin-top: -4%;
+}
 
 .list {
 	color: #ffffffa5;
@@ -80,7 +92,10 @@ section {
 	align-items: center;
 	padding: 100px 80px;
 }
-
+.usermain
+{
+	width: 100vw;
+}
 
 .grid {
 	width: 100%;

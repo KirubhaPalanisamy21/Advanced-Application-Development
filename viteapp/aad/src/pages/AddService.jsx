@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import '../assets/css/AddService.css';
 import { Link, useNavigate } from 'react-router-dom';
+import SSidebar from '../components/SSidebar';
+// import Sidebar from '../components/Sidebar';
 
 const AddService = () => {
   const [formData, setFormData] = useState({
@@ -90,9 +92,9 @@ const AddService = () => {
 
   return (
     <div className="background">
-      <div className='overlay8'></div>
-
-      <div className="booking-form">
+    <div className='overlay8'></div>
+    <div className="booking-form">
+    <div className='ssidebar-div'><SSidebar/></div>
         <h2>ADD SERVICE FORM</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -138,6 +140,7 @@ const AddService = () => {
           <Link to='/AdminDashboard'><button type='button'>Back to Dashboard</button></Link>
         </form>
       </div>
+      
     </div>
   );
 };

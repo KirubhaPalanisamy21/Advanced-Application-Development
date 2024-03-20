@@ -63,9 +63,9 @@ header nav li {
 	
 }
 .usermain {
-  background: url('https://www.writersevoke.com/wp-content/uploads/2022/08/Home-Care-Agency.png')no-repeat;
+  background: url('')no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100vh;    
 }
 
 .leftcontent {

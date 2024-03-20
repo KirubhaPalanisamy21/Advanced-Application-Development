@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Button, Layout } from 'antd';
 import "../assets/css/Sidebar.css";
 import { Link } from 'react-router-dom';
-import MenuList from './MenuList';
-import ToggleThemeButton from './ToggleThemeButton';
+// import MenuList from './MenuList';
 import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
+import ToggleThemeButton from '../components/ToggleThemeButton'
 
 const { Header, Sider } = Layout;
 
@@ -42,7 +42,7 @@ function Sidebar() {
           </Header>
         </Layout>
         <center>
-        <MenuList darkTheme={darkTheme} />
+    
         <ToggleThemeButton darkTheme={darkTheme}
         toggleTheme={toggleTheme} />
         </center>
